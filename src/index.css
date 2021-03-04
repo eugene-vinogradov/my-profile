@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.info-block {
+  padding-top: 15px;
+  padding-bottom: 75px;
+  background-color: #eff1f2;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+.info-block-avatar {
+  padding: 10px;
+}
+
+.info-block-avatar img {
+  height: 100%;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.info-block-fullname p {
+  font-size: 45px;
+}
+
+.info-block-description p {
+  font-size: 20px;
+}
+
+.info-block-contact-button a {
+  text-decoration: underline;
+}
+
+.info-block-contact-button button{
+  background-color: #3879d4;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 50%;
+  height: 100%;
+  border-radius: 4px;
+  border: none;
+}
+
+.info-block-contact-button :hover {
+  background-color: #0059D9;
+}
+
+.info-block-contact-button :active {
+  background-color: #0248aa;
+  border: none;
+}
+
+
+
